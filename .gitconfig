@@ -1,0 +1,53 @@
+[user]
+	name = Shouichi Kamiya
+	email = shouichi.kamiya@gmail.com
+[core]
+	pager = less -FXR -x8
+	whitespace = trailing-space,space-before-tab
+	excludesfile = ~/.gitignore
+	editor = vim
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = auto
+[push]
+	default = tracking
+[apply]
+	whitespace = error-all
+[branch]
+	autosetuprebase = always
+[merge]
+	ff = true
+[pull]
+	rebase = true
+[grep]
+	lineNumber = true
+[status]
+	showUntrackedFiles = all
+[fetch]
+	prune = true
+[alias]
+	c = clone --recursive
+	st = status
+	ci = commit
+	co = checkout
+	s = stash
+	sl = stash list
+	ss = stash save
+	sp = stash pop
+	cp = cherry-pick
+	su = submodule update
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	unstage = reset HEAD --
+	url = config --get remote.origin.url
+	g = grep --color
+	fixup = commit --amend -C HEAD
+	modified-files = ls-files -m
+	untracked-files = ls-files -o --exclude-standard
+	ignored-files = ls-files --others -i --exclude-standard
+	assume = update-index --assume-unchanged
+	unassume = update-index --no-assume-unchanged
+	assumed = "!git ls-files -v | grep ^h | cut -c 3-"

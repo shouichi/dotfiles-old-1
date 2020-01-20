@@ -1,0 +1,54 @@
+# Editor Backups #
+##################
+*~
+*.swp
+tags
+
+# Compiled source #
+###################
+*.class
+*.dll
+*.exe
+*.o
+*.a
+*.lo
+*.la
+*.so
+*.so.*
+*.gem
+.bundle
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.tgz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.db
+*.rdb
+*.core
+nohup.out
+
+# TeX #
+#######
+*.aux
+*.dvi
+*.pdf
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
