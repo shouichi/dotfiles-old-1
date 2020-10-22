@@ -73,6 +73,9 @@ set statusline+=(%l,%c)
 " hex value under cursor
 set statusline+=[0x%02B]
 
+" set ruler
+set colorcolumn=80
+
 " TODO
 set autoindent smartindent
 set smarttab
