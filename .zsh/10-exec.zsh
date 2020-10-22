@@ -8,6 +8,8 @@ source ~/.zplug/init.zsh
 zplug "mafredri/zsh-async"
 zplug "sindresorhus/pure", use:"pure.zsh", as:"theme"
 
+zplug 'dracula/zsh', as:theme
+
 # completion
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
