@@ -53,6 +53,7 @@ fi
 
 if [ -d $HOME/local/flutter/bin ]; then
 	export PATH=$HOME/local/flutter/bin:$PATH
+	export PATH=$HOME/local/flutter/.pub-cache/bin:$PATH
 fi
 
 if [ -d $HOME/local/dart-sdk/bin ]; then
