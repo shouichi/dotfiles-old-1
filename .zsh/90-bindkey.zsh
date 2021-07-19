@@ -15,3 +15,6 @@ bindkey "^N" history-beginning-search-forward-end
 autoload -Uz smart-insert-last-word
 zle -N insert-last-word smart-insert-last-word
 bindkey "^]" insert-last-word
+
+zle -N ghq-fzf-cd ghq-fzf-cd
+bindkey "^O" ghq-fzf-cd
