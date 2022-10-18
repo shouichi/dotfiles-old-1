@@ -38,3 +38,9 @@ zplug load
 if [ -x "$(command -v direnv)" ]; then
 	eval "$(direnv hook zsh)"
 fi
+
+if [ -e $HOME/.asdf/asdf.sh ]; then
+  . $HOME/.asdf/asdf.sh
+  fpath=(${ASDF_DIR}/completions $fpath)
+  autoload -Uz compinit && compinit
+fi
