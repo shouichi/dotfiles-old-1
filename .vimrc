@@ -9,6 +9,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
 
 Plug 'hashivim/vim-terraform'
 
