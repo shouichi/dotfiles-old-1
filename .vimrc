@@ -17,6 +17,8 @@ Plug 'rust-lang/rust.vim'
 
 Plug 'dart-lang/dart-vim-plugin'
 
+Plug 'google/vim-jsonnet'
+
 call plug#end()
 
 filetype plugin on
