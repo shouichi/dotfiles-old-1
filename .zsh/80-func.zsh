@@ -4,6 +4,7 @@ ghq-fzf-cd() {
 }
 
 M() {
-  declare -r BRANCH="$(git rev-parse --abbrev-ref HEAD)"
-  git checkout master && git branch -D $BRANCH && git pull
+  declare -r DEFAULT_BRANCH="$(git rev-parse --abbrev-ref origin/HEAD | cut -c8-)"
+  declare -r WORKING_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+  git checkout $DEFAULT_BRANCH && git branch -D $WORKING_BRANCH && git pull
 }
