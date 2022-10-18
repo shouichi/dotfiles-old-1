@@ -52,3 +52,5 @@ nohup.out
 ehthumbs.db
 Icon?
 Thumbs.db
+
+*.zsh.zwc
